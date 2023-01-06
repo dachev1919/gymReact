@@ -1,0 +1,102 @@
+.exercise__wrapper {
+    background: var(--bg-gradient);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.exercise__item {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+    flex: 0 0 calc(33% - 1.2rem);
+}
+
+.exercise__icon {
+    width: 25%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.exercise__icon img {
+    width: 100%;
+}
+
+.exercise__content {
+    width: 80%;
+}
+
+.exercise__content h4 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: .6rem;
+}
+
+.exercise__content p {
+    font-size: 1rem;
+    color: rgba(255,255,255,.8);
+}
+
+/* RESPONSIVE PART */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .exercise__wrapper {
+        padding: 70px 30px;
+    }
+    .exercise__content h4 {
+        font-size: 1.1rem;
+    }
+    .exercise__content p {
+        font-size: .9rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .exercise__content h4,
+    .exercise__content p {
+        text-align: left;
+    }
+}
+@media screen and (max-width: 991px) {
+    .exercise__item {
+        flex-direction: column;
+        row-gap: 1.2rem;
+    }
+    .exercise__content p,
+    .exercise__content h4 {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .exercise__wrapper {
+        padding: 40px 20px;
+    }
+    .exercise__content h4 {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .exercise__content p {
+        padding: 0 10px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .exercise__item {
+        row-gap: .5rem;
+    }
+    .exercise__content h4 {
+        margin-bottom: .3rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .exercise__wrapper {
+        flex-direction: column;
+        row-gap: 2rem;
+        padding: 40px 30px;
+    }
+}
+/* END RESPONSIVE PART */

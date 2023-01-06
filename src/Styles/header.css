@@ -1,0 +1,122 @@
+.header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.logo__img {
+    background: var(--bg-gradient);
+    width: 35px;
+    height: 35px;
+    line-height: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__img img {
+    width: 100%;
+}
+
+.logo h2 {
+    color: var(--heading-color);
+    font-weight: 700 !important;
+    font-size: 1.8rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+}
+
+.nav__item a {
+    color: var(--heading-color);
+    font-weight: 600 !important;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 1.1rem;
+}
+
+.nav__item a:hover {
+    color: var(--primary-color);
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.mobile__menu {
+    color: var(--heading-color);
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: none;
+}
+
+.sticky__header {
+    width: 100%;
+    position: sticky!important;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, .05);
+    animation-name: sticky;
+    animation-duration: .5s;
+}
+/* RESPONSIVE PART */
+@media screen and (max-width: 767px) {
+    .mobile__menu {
+        display: block;
+    }
+    .header {
+        position: relative;
+        z-index: 99;
+    }
+    .menu li {
+        line-height: 300%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .header .navigation {
+        transition: all .3s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background: #fff;
+    }
+    .header .navigation.navigation-show {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+/* END RESPONSIVE PART */
+@keyframes sticky {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

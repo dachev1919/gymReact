@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+:root {
+    --primary-color: #6f55f2;
+    --primary-hover-color: #583de3;
+    --heading-color: #132742;
+    --bg-gradient: linear-gradient(
+        90deg,
+        rgba(103, 101, 240, 1) 27%,
+        rgb(144, 144, 253) 85%
+    );
+    --font-name: 'Questrial', sans-serif;
+}
+
+/* Reset default browser styles */
+.deployed {
+    opacity: 1!important;
+    transform: none!important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-name);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+a:hover {
+    color: unset;
+}
+
+ul {
+    list-style: none;
+}
+
+/* END Reset default browser styles */
+
+/* Reusable class */
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.section__title {
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.section__subtitle {
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+.highlights {
+    color: var(--primary-color);
+}
+.btn__primary {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: var(--primary-color);
+    border-radius: 5px;
+    font-family: var(--font-name);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn__primary:hover {
+    background: var(--primary-hover-color);
+}
+@media screen and (min-width: 576px) {
+    section {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .btn__primary.btn__primary-responsive {
+        padding: 5px 10px;
+        font-size: .8rem;
+    }
+    .hero__img {
+        margin-bottom: 50px;
+    }
+}
+/* END Reusable class */
