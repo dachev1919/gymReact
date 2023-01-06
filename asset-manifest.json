@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gymReact/static/css/main.24afcb51.css",
+    "main.js": "/gymReact/static/js/main.37620191.js",
+    "static/media/remixicon.svg?t=1590207869815": "/gymReact/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/trainer.png": "/gymReact/static/media/trainer.d5ac997315b633881155.png",
+    "static/media/remixicon.eot?t=1590207869815": "/gymReact/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/gymReact/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/gym-02.png": "/gymReact/static/media/gym-02.06fd85c2c7a9d0f48978.png",
+    "static/media/remixicon.woff?t=1590207869815": "/gymReact/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/avatar02.png": "/gymReact/static/media/avatar02.43d3323871cb17add5e2.png",
+    "static/media/remixicon.woff2?t=1590207869815": "/gymReact/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/avatar01.png": "/gymReact/static/media/avatar01.712b9be90c75dec89232.png",
+    "static/media/yoga-pose.png": "/gymReact/static/media/yoga-pose.1009817918cc6df26064.png",
+    "static/media/extended.png": "/gymReact/static/media/extended.65fee2ef368e447527a7.png",
+    "static/media/lunges.png": "/gymReact/static/media/lunges.52e48615ce527a095bcf.png",
+    "index.html": "/gymReact/index.html",
+    "main.24afcb51.css.map": "/gymReact/static/css/main.24afcb51.css.map",
+    "main.37620191.js.map": "/gymReact/static/js/main.37620191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24afcb51.css",
+    "static/js/main.37620191.js"
+  ]
+}
