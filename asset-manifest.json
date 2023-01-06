@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gymReact/static/css/main.29938f8c.css",
-    "main.js": "/gymReact/static/js/main.1f67edc9.js",
+    "main.css": "/gymReact/static/css/main.caef6ecf.css",
+    "main.js": "/gymReact/static/js/main.c96cd794.js",
     "static/media/remixicon.svg?t=1590207869815": "/gymReact/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/trainer.png": "/gymReact/static/media/trainer.d5ac997315b633881155.png",
     "static/media/remixicon.eot?t=1590207869815": "/gymReact/static/media/remixicon.5cb99e6cba5a4619063f.eot",
@@ -15,11 +15,11 @@
     "static/media/extended.png": "/gymReact/static/media/extended.65fee2ef368e447527a7.png",
     "static/media/lunges.png": "/gymReact/static/media/lunges.52e48615ce527a095bcf.png",
     "index.html": "/gymReact/index.html",
-    "main.29938f8c.css.map": "/gymReact/static/css/main.29938f8c.css.map",
-    "main.1f67edc9.js.map": "/gymReact/static/js/main.1f67edc9.js.map"
+    "main.caef6ecf.css.map": "/gymReact/static/css/main.caef6ecf.css.map",
+    "main.c96cd794.js.map": "/gymReact/static/js/main.c96cd794.js.map"
   },
   "entrypoints": [
-    "static/css/main.29938f8c.css",
-    "static/js/main.1f67edc9.js"
+    "static/css/main.caef6ecf.css",
+    "static/js/main.c96cd794.js"
   ]
 }
