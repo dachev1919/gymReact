@@ -1,5 +1,5 @@
-import {useEffect} from "react";
-import Aos from 'aos';
+// import {useEffect} from "react";
+// import Aos from 'aos';
 import './App.css';
 import 'remixicon/fonts/remixicon.css';
 import Header from "./components/Header/Header";
@@ -11,9 +11,7 @@ import Testimonials from "./components/UI/Testimonials";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-    useEffect(() => Aos.init, []);
-    const zoom = document.querySelectorAll('html:not(.no-js) [data-aos^="zoom"][data-aos^="zoom"]');
-    const fade = document.querySelectorAll('html:not(.no-js) [data-aos^="fade"][data-aos^="fade"]');
+    // useEffect(() => Aos.init, []);
 
     return (
         <>
