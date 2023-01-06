@@ -13,7 +13,8 @@
 }
 
 /* Reset default browser styles */
-.deployed {
+html:not(.no-js) [data-aos^="zoom"][data-aos^="zoom"],
+html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
     opacity: 1!important;
     transform: none!important;
 }

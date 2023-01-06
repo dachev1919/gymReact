@@ -15,18 +15,6 @@ function App() {
     const zoom = document.querySelectorAll('html:not(.no-js) [data-aos^="zoom"][data-aos^="zoom"]');
     const fade = document.querySelectorAll('html:not(.no-js) [data-aos^="fade"][data-aos^="fade"]');
 
-    useEffect(() => {
-        setTimeout(() => {
-            zoom.forEach((item) => {
-                item.classList.add('deployed');
-            });
-            fade.forEach((item) => {
-                item.classList.add('deployed');
-            });
-        }, 500);
-    }, []);
-
-
     return (
         <>
             <Header/>
