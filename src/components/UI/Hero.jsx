@@ -1,6 +1,6 @@
 import heroImg from '../../assets/img/gym-02.png';
 import dumbleIcon from '../../assets/img/dumble.png';
-import '../../Styles/hero.css';
+import '../../styles/hero.css';
 
 const Hero = () => {
     return (

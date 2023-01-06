@@ -1,4 +1,4 @@
-import '../../Styles/testimonials.css';
+import '../../styles/testimonials.css';
 import {Swiper, SwiperSlide} from "swiper/react";
 import { EffectCards } from "swiper";
 import 'swiper/css';

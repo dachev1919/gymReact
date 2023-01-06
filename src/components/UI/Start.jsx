@@ -1,4 +1,4 @@
-import '../../Styles/start.css';
+import '../../styles/start.css';
 import trainerImg from '../../assets/img/trainer.png';
 
 const Start = () => {

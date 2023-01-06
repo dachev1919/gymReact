@@ -1,4 +1,4 @@
-import '../../Styles/footer.css';
+import '../../styles/footer.css';
 import logo from "../../assets/img/dumble.png";
 
 const Footer = () => {

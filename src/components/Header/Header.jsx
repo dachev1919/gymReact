@@ -1,5 +1,5 @@
 import {useEffect, useRef, useState} from 'react';
-import '../../Styles/header.css';
+import '../../styles/header.css';
 import logo from '../../assets/img/dumble.png';
 
 const nav__links = [
